@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabelTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BlinkingLabelTest.'
+  s.summary          = 'Just test for me. Create temporal pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/igormyroniuk.brander@gmail.com/BlinkingLabelTest'
+  s.homepage         = 'https://github.com/ihormyroniuk-brander/BlinkingLabelTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'igormyroniuk.brander@gmail.com' => 'ihor.myroniuk@brander.ua' }
-  s.source           = { :git => 'https://github.com/igormyroniuk.brander@gmail.com/BlinkingLabelTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ihormyroniuk-brander/BlinkingLabelTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

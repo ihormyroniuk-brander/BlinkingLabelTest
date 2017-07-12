@@ -1,0 +1,16 @@
+PODS:
+  - BlinkingLabelTest (0.1.0)
+
+DEPENDENCIES:
+  - BlinkingLabelTest (from `../`)
+
+EXTERNAL SOURCES:
+  BlinkingLabelTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlinkingLabelTest: 03ea1b67e5c2316463dd1d3d48250d59a33f80f8
+
+PODFILE CHECKSUM: 3470fb0ffa3950d2979e3b1ff9e294b50150dd8b
+
+COCOAPODS: 1.2.1
