@@ -10,7 +10,7 @@ import Foundation
 
 class HelloWorldPrinter {
     
-    static func printHelloWorld() {
+    public static func printHelloWorld() {
         print("Hello, World!!! From pod")
     }
     

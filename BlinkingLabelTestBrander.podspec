@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'BlinkingLabelTest'
+  s.name             = 'BlinkingLabelTestBrander'
   s.version          = '0.1.0'
   s.summary          = 'Just test for me. Create temporal pod.'
 
