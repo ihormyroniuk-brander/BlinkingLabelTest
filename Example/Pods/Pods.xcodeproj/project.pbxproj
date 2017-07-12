@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1DF520562DFA99261C25DF7FE2CBACF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7999BA40AD4C4DB9CE17D045380201A9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1BF94573B9A1288BF510C637DCACE /* ReplaceMe.swift */; };
 		7F5414FF1B25E9B9490B267145B6A7AC /* Pods-BlinkingLabelTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71519CD1C9009599F4A3D803648E987B /* Pods-BlinkingLabelTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		924D4CA89D95D5D07B5D37D6348F42EF /* BlinkingLabelTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AD0B73C8354982603B2F367D745FDE /* BlinkingLabelTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A59DA0638CFF3921791079AB138A9E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B83BCDFD0E668DED77AEF1567B27FD88 /* BlinkingLabelTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87C8A4D3F2D3036BA42D85FD34B1EA3 /* BlinkingLabelTest-dummy.m */; };
+		C5739EE11F1642A6008CE3F8 /* HelloWorldPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5739EE01F1642A6008CE3F8 /* HelloWorldPrinter.swift */; };
 		E3B0BDCA15D90DD52CB423A9161AA79C /* Pods-BlinkingLabelTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C2CA66B2AE77E495741A0C7D1F6F33 /* Pods-BlinkingLabelTest_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -28,23 +28,23 @@
 
 /* Begin PBXFileReference section */
 		01AD0B73C8354982603B2F367D745FDE /* BlinkingLabelTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkingLabelTest-umbrella.h"; sourceTree = "<group>"; };
-		24A4A019970AB7D47BC661785CA47B2E /* Pods-BlinkingLabelTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BlinkingLabelTest_Tests.modulemap"; sourceTree = "<group>"; };
+		24A4A019970AB7D47BC661785CA47B2E /* Pods-BlinkingLabelTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BlinkingLabelTest_Tests.modulemap"; sourceTree = "<group>"; };
 		2EEF9D53BD78F9EC859D1F9546A226C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C2CA66B2AE77E495741A0C7D1F6F33 /* Pods-BlinkingLabelTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkingLabelTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		44E60ED318883F2BD65658CC6413ABE7 /* Pods-BlinkingLabelTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingLabelTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5365D8FCA5E237CE7D0EA685588EECD0 /* BlinkingLabelTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BlinkingLabelTest.modulemap; sourceTree = "<group>"; };
+		5365D8FCA5E237CE7D0EA685588EECD0 /* BlinkingLabelTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BlinkingLabelTest.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		71519CD1C9009599F4A3D803648E987B /* Pods-BlinkingLabelTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkingLabelTest_Tests-umbrella.h"; sourceTree = "<group>"; };
-		74D44D35B73A53D99F8E490B79B60129 /* Pods_BlinkingLabelTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlinkingLabelTest_Tests.framework; path = "Pods-BlinkingLabelTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		800F9989A1C7490E6A81BE341C590C95 /* BlinkingLabelTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlinkingLabelTest.framework; path = BlinkingLabelTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D44D35B73A53D99F8E490B79B60129 /* Pods_BlinkingLabelTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkingLabelTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800F9989A1C7490E6A81BE341C590C95 /* BlinkingLabelTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlinkingLabelTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F720B51A3211B66E257D5E168E08DE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91521B0C9DDBB5A2D948C9D0023C69BF /* Pods-BlinkingLabelTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkingLabelTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9325C0258349288E0C021123D852219E /* Pods-BlinkingLabelTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkingLabelTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95A8D75BCEF7C355AD1EA0538AE2DE37 /* Pods-BlinkingLabelTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingLabelTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0A1BF94573B9A1288BF510C637DCACE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		B35376D905A8A48323C5A9E38AC59546 /* BlinkingLabelTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkingLabelTest-prefix.pch"; sourceTree = "<group>"; };
 		BE84EB24F27E36919F82849CF15E5C70 /* Pods-BlinkingLabelTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkingLabelTest_Tests-resources.sh"; sourceTree = "<group>"; };
+		C5739EE01F1642A6008CE3F8 /* HelloWorldPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldPrinter.swift; sourceTree = "<group>"; };
 		D87C8A4D3F2D3036BA42D85FD34B1EA3 /* BlinkingLabelTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlinkingLabelTest-dummy.m"; sourceTree = "<group>"; };
 		E7D3E0CCA5AB37DEC77A949F289FEF72 /* BlinkingLabelTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkingLabelTest.xcconfig; sourceTree = "<group>"; };
 		FC507A59C5C7A4D9BFD998247A523C40 /* Pods-BlinkingLabelTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingLabelTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -153,7 +153,6 @@
 			children = (
 				C5369B07E5B9156E07D0D648088AE4ED /* Classes */,
 			);
-			name = BlinkingLabelTest;
 			path = BlinkingLabelTest;
 			sourceTree = "<group>";
 		};
@@ -168,9 +167,8 @@
 		C5369B07E5B9156E07D0D648088AE4ED /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B0A1BF94573B9A1288BF510C637DCACE /* ReplaceMe.swift */,
+				C5739EE01F1642A6008CE3F8 /* HelloWorldPrinter.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -280,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83BCDFD0E668DED77AEF1567B27FD88 /* BlinkingLabelTest-dummy.m in Sources */,
-				7999BA40AD4C4DB9CE17D045380201A9 /* ReplaceMe.swift in Sources */,
+				C5739EE11F1642A6008CE3F8 /* HelloWorldPrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
