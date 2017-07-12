@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabelTestBrander'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Just test for me. Create temporal pod.'
 
 # This description is used to generate tags and improve search results.

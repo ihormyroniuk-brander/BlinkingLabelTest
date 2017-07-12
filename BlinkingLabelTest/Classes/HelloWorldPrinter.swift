@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HelloWorldPrinter {
+public class HelloWorldPrinter {
     
     public static func printHelloWorld() {
         print("Hello, World!!! From pod")
